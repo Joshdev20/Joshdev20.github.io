@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const food_container = document.querySelector(".food_container")
-    fetch("food-data/food-data.json",
+    fetch("food-data.json",
         {
             method: "get",
             redirect: "follow",
